@@ -69,13 +69,13 @@ nav {
 
 .left a {
   text-decoration: none;
-  color: black;
+  color: #eea302;
   transition: color 0.2s;
 }
 
-.left .m-logo a:hover {
+/* .left .m-logo a:hover {
   color: #eea302;
-}
+} */
 
 .left .wb {
   font-size: 15px;
@@ -133,17 +133,15 @@ nav {
   transition: all .5s;
 }
 
-.right ul li a.active-page {
-  background-color: #eea302;
-  border-radius: 8px;
-}
 
-.right ul li a.active-page:hover {
-  color: black;
+.right ul li a.active-page {
+  color: #eea302;
 }
 
 .right ul li a {
+  position: relative;
   font-size: 16px;
+  font-weight: bold;
   text-decoration: none;
   padding: 5px 12px;
   color: black;
@@ -151,9 +149,36 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-.right ul li a:hover {
+.right ul li a::before
+{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
   background-color: #eea302;
-  border-radius: 8px;
+  left: 2;
+  bottom: 0;
+  transition: all .2s;
+} 
+
+.right ul li a:hover
+{
+  color: #eea302;
+}
+.right ul li a:hover::before{
+  width: 40%;
+}
+
+.right ul li a.active-page::before
+{
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background-color: #eea302;
+  left: 2;
+  bottom: 0;
+  transition: all 1s;
 }
 
 

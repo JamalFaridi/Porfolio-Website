@@ -168,13 +168,14 @@ hamb.addEventListener("click", () => {
 // }
 
 // This is used to find out the current page of the HTML.
-let activePage = window.location.pathname;
-let navLinks = hamMenu.querySelectorAll('a');
 
-navLinks.forEach(link =>{
+// let activePage = window.location.pathname;
+// let navLinks = hamMenu.querySelectorAll('a');
 
-    // This line checks if any <a> tag includes activePage (current page).
-    if(link.href.includes(`${activePage}`)){
-        link.classList.add('active-page');
-    }
-})
+// navLinks.forEach(link =>{
+
+//     // This line checks if any <a> tag includes activePage (current page).
+//     if(link.href.includes(`${activePage}`)){
+//         link.classList.add('active-page');
+//     }
+// })
