@@ -816,11 +816,11 @@ textarea:hover {
 .first-last-name .first-name,
 .last-name {
   width: 100%;
-  margin: 8px 0;
+  margin: 8px;
 }
 
 .first-last-name input {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
@@ -833,12 +833,12 @@ textarea:hover {
 .email-subject .email,
 .subject {
   width: 100%;
-  margin: 8px 0;
+  margin: 8px;
 }
 
 
 .email-subject input {
-  width: 90%;
+  width: 100%;
   padding: 12px;
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
@@ -858,6 +858,12 @@ textarea:hover {
 .message-submit .message {
   display: flex;
   flex-direction: column;
+  margin: 8px;
+}
+
+.message-submit .submit 
+{
+  margin: 8px;
 }
 
 .message-submit textarea {
