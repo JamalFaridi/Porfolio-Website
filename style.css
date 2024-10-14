@@ -149,8 +149,7 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-.right ul li a::before
-{
+.right ul li a::before {
   content: "";
   position: absolute;
   width: 0%;
@@ -159,18 +158,17 @@ nav {
   left: 2;
   bottom: 0;
   transition: all .2s;
-} 
+}
 
-.right ul li a:hover
-{
+.right ul li a:hover {
   color: #eea302;
 }
-.right ul li a:hover::before{
+
+.right ul li a:hover::before {
   width: 40%;
 }
 
-.right ul li a.active-page::before
-{
+.right ul li a.active-page::before {
   content: "";
   position: absolute;
   width: 40%;
@@ -249,6 +247,10 @@ main {
     justify-content: center;
   }
 
+  main .main-info .resume-down {
+    justify-content: center !important;
+  }
+
 
   /* Resume */
 
@@ -282,6 +284,14 @@ main {
 
   .resume .container .resume-info .resume-box {
     flex-direction: column !important;
+  }
+
+  .tl .content-heading {
+    flex-direction: column !important;
+  }
+
+  .tl .tl-tenure span {
+    margin-right: 0px !important;
   }
 
   .other-skills .other-skills-wrap ul {
@@ -493,6 +503,7 @@ main .main-profile img {
   transition: all .2s;
   cursor: pointer;
 }
+
 /* 
 main .main-profile img:hover {
   filter: none;
@@ -564,12 +575,12 @@ main .main-info ul li:hover {
   background-color: transparent;
 }
 
-.resume-down{
+.resume-down {
   justify-content: flex-start !important;
   gap: 10px;
 }
 
-.download-cv{
+.download-cv {
   font-size: 10px;
   font-weight: bold;
   text-align: center;
@@ -583,7 +594,7 @@ main .main-info ul li:hover {
   transition: background 0.2s;
 }
 
-.download-cv:hover{
+.download-cv:hover {
   background: transparent;
 }
 
@@ -641,11 +652,36 @@ main .main-info ul li:hover {
   gap: 20px;
 }
 
-#Team-leader {
+/* Assistant Team leader */
+
+.resume .resume-info-box .team-lead {
+  flex-direction: column !important;
+  display: flex;
+  gap: 24px;
+}
+
+.resume .resume-info-box .tl h2 {
+  font-size: 16.5px;
+
+}
+
+.resume .resume-info-box .tl span {
+
+  font-size: 8.5px !important;
+
+}
+
+.resume .resume-info-box .tl p {
+  font-size: 12px !important;
+}
+
+/* Assistant Team leader */
+
+/* #Team-leader {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-}
+} */
 
 .resume .resume-info-box .tenure-box {
   align-self: flex-start;
@@ -663,6 +699,16 @@ main .main-info ul li:hover {
   margin-top: -8px;
 }
 
+/* Assistant Team leader */
+
+.resume .resume-info-box .content-box .tl-tenure span {
+  margin-right: 34px;
+  font-family: "Roboto Mono", monospace;
+  color: gray;
+}
+
+/* Assistant Team leader */
+
 .resume .resume-info-box .content-box .content-heading h2 {
   display: inline-block;
 }
@@ -677,6 +723,7 @@ main .main-info ul li:hover {
   color: gray;
   font-size: 13px;
 }
+
 
 /* Skills And Experties */
 
@@ -883,8 +930,7 @@ textarea:hover {
   margin: 8px;
 }
 
-.message-submit .submit 
-{
+.message-submit .submit {
   margin: 8px;
 }
 
