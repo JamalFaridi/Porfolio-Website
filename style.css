@@ -564,6 +564,28 @@ main .main-info ul li:hover {
   background-color: transparent;
 }
 
+.resume-down{
+  justify-content: flex-start !important;
+  gap: 10px;
+}
+
+.download-cv{
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  width: 100px;
+  background-color: #eea302;
+  padding: 7px 2px;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: background 0.2s;
+}
+
+.download-cv:hover{
+  background: transparent;
+}
 
 /* Resume */
 
