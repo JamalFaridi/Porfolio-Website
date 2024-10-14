@@ -489,14 +489,14 @@ main .main-profile img {
   object-fit: cover;
   object-position: top right;
   position: relative;
-  filter: grayscale();
+  /* filter: grayscale(); */
   transition: all .2s;
   cursor: pointer;
 }
-
+/* 
 main .main-profile img:hover {
   filter: none;
-}
+} */
 
 main .main-info {
   max-width: 400px;
