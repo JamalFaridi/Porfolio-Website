@@ -399,6 +399,22 @@ main {
 
   /* Contact */
 
+  .email-subject
+  {
+    flex-direction: column !important;
+  }
+  
+  .first-last-name
+  {
+    flex-direction: column !important;
+
+  }
+
+  .message-submit .message
+  {
+    margin: 0px !important;
+  }
+
   .message-submit {
     align-items: normal !important;
     flex-direction: column;
