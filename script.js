@@ -1,7 +1,7 @@
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1200,
+    duration: 500,
     delay: 10
 });
 
@@ -12,7 +12,7 @@ ScrollReveal().reveal('.main-info', { origin: "bottom" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1200,
+    duration: 500,
     delay: 10
 });
 
@@ -23,7 +23,7 @@ ScrollReveal().reveal('.project-img-box', { origin: "right" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1200,
+    duration: 500,
     delay: 10
 });
 
@@ -33,7 +33,7 @@ ScrollReveal().reveal('.tenure-box', { origin: "right" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1500,
+    duration: 500,
     delay: 100
 });
 
@@ -42,7 +42,7 @@ ScrollReveal().reveal('.content-box', { origin: "right" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1500,
+    duration: 500,
     delay: 10
 });
 
@@ -51,7 +51,7 @@ ScrollReveal().reveal('.other-skills', { origin: "right" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1500,
+    duration: 500,
     delay: 100
 });
 
@@ -63,7 +63,7 @@ ScrollReveal().reveal(".contact-box", { origin: "left" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1500,
+    duration: 500,
     delay: 100
 });
 
@@ -72,7 +72,7 @@ ScrollReveal().reveal(".contact-form-box", { origin: "right" });
 ScrollReveal({
     reset: true,
     distance: '40px',
-    duration: 1200,
+    duration: 500,
     delay: 10
 });
 
