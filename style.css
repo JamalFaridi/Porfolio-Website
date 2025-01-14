@@ -202,7 +202,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh;
+  min-height: 100vh;
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -306,8 +306,6 @@ main .main-wrap .main-info ul li a {
   font-family: "Alegreya", serif;
   text-decoration: none;
   color: #fff;
-  width: 100%;
-  height: 100%;
 }
 
 main .main-wrap .main-info ul li:first-child {
@@ -319,9 +317,9 @@ main .main-wrap .main-info ul li:first-child a {
   font-weight: 600;
 }
 
-main .main-wrap .main-info ul li:nth-child(2) {
-  background-color: transparent;
+main .main-info>ul:first-of-type>li:nth-of-type(2) {
   border: 2px solid #eea302;
+  background-color: transparent;
 }
 
 main .main-wrap .main-info ul li:nth-child(2):hover {
@@ -353,9 +351,9 @@ main .main-info-social-links {
   position: absolute;
   left: 0px;
   top: 35%;
-  /* transform: translate(-50px, -50px); */
   flex-direction: column;
   gap: 10px;
+  z-index: 1000;
 }
 
 main .main-info-social-links li {
@@ -374,6 +372,37 @@ main .main-info-social-links li a img {
 }
 
 main .main-info-social-links li:hover a img {
+  filter: invert(1);
+}
+
+
+main .main-info .main-info-social-links-2 {
+  border-radius: 12px;
+  padding: 8px 12px !important;
+  gap: 5px !important;
+  width: 170px;
+  height: 30px;
+  margin-top: 7px;
+  display: none !important;
+}
+
+main .main-info .main-info-social-links-2 li {
+  background-color: #eea302;
+  border: none !important;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px !important;
+}
+
+main .main-info .main-info-social-links-2 li a img {
+  transition: .2s all;
+  width: 10px;
+}
+
+main .main-info .main-info-social-links-2 li:hover a img {
   filter: invert(1);
 }
 
@@ -683,46 +712,96 @@ main .main-info-social-links li:hover a img {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
 }
 
 .projects .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
   gap: 150px;
+
 }
 
-.projects .container>h1 {
-  font-size: 45px;
+.projects>h1 {
+  width: max-content;
+  border: 2px solid #eea302;
+  padding: 7px 20px;
+  border-radius: 12px;
+  background-color: #eea302;
+  font-size: 30px;
 }
 
 .projects .projects-box {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 70px;
+  max-width: 550px;
+  border-radius: 12px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.projects .projects-box:hover img {
+  width: 100%;
+}
+
+.projects .projects-box:hover .project-info {
+  bottom: 0px;
 }
 
 .projects .projects-box .project-info {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-self: flex-start;
+  align-items: center;
   gap: 17px;
+  background: linear-gradient(#eea302, rgba(0, 0, 0, 0.8));
+  padding: 30px;
+  position: absolute;
+  bottom: -300px;
+  height: 100%;
+  transition: .2s all;
+}
+
+.projects .projects-box .project-info .project-heading {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
 }
 
 /* Project Paragraph */
 
 .project-info .project-paragraph p {
   font-family: "Roboto Mono", monospace;
-  color: gray;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.projects .project-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects .project-img-box img {
-  width: 500px;
+  width: 90%;
   height: auto;
   object-fit: cover;
   border: 1px solid gray;
+  border-radius: 12px;
+  transition: .2s all;
 }
 
 
@@ -735,6 +814,22 @@ main .main-info-social-links li:hover a img {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+.contact-heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-heading h1 {
+  width: max-content;
+  border: 2px solid #eea302;
+  padding: 7px 20px;
+  border-radius: 12px;
+  background-color: #eea302;
+  font-size: 30px;
 }
 
 .contact .contact-box {
@@ -762,7 +857,7 @@ main .main-info-social-links li:hover a img {
 }
 
 .contact-info .contact-paragraph a {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -771,8 +866,6 @@ main .main-info-social-links li:hover a img {
 
 
 .contact-form-box {
-  padding: 30px;
-  border: 1px solid gray;
   border-radius: 5px;
 }
 
@@ -801,7 +894,9 @@ textarea:hover {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
 }
 
 /* Email and Subject */
@@ -819,7 +914,9 @@ textarea:hover {
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 12px;
 }
 
 
@@ -827,8 +924,9 @@ textarea:hover {
 
 .message-submit {
   display: flex;
-  align-items: flex-end;
-  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .message-submit .message {
@@ -842,35 +940,39 @@ textarea:hover {
 }
 
 .message-submit textarea {
-  width: 320px;
+  width: 100%;
   padding: 15px;
   min-height: 150px;
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 15px;
   resize: none;
+  border-radius: 12px;
 }
 
 .submit button {
   width: 150px;
-  height: 150px;
   padding: 12px;
   border-radius: 5px;
-  border: 1px solid gray;
+  border: 2px solid #eea302;
   font-size: 16px;
-  font-weight: bold;
   cursor: pointer;
   transition: all .2s;
   background-color: #eea302;
   font-family: "Alegreya", serif;
   font-optical-sizing: auto;
   font-style: normal;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #fff;
 }
 
 .submit button:hover {
   background-color: transparent;
-  border: 1px solid black;
+  border: 2px solid #eea302;
+  color: #eea302;
 }
 
 /* Footer */

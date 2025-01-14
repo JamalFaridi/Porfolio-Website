@@ -1,844 +1,736 @@
-
-
 @media screen and (max-width: 1178px) {
 
-    /* project */
-    .projects {
-      text-align: center;
-    }
-  
-    .projects .projects-box {
-  
-      flex-direction: column !important;
-    }
-  
-    .projects .container {
-      gap: 50px !important;
-    }
-  
-    /* contact */
-    .contact .contact-box {
-      gap: 50px !important;
-    }
+  /* project */
+  .projects {
+    text-align: center;
   }
-  
-  @media screen and (max-width: 1000px) {
-  
-  
-    /* home */
-  
-    header nav {
-      justify-content: space-between;
-      gap: 12px;
-    }
-  
-    .left a {
-      text-decoration: none;
-      color: #fff;
-      transition: color 0.2s;
-      font-family: "Major Mono Display", serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 15px !important;
-    }
-  
-    .right ul li a {
-      position: relative;
-      font-size: 10px !important;
-      font-weight: bold;
-      text-decoration: none;
-      padding: 5px 12px;
-      color: #fff;
-      transition: all 0.2s;
-      font-family: "Poppins", sans-serif;
-    }
-  
-    main .container {
-      flex-direction: column;
-    }
-  
-    main .main-wrap {
-      gap: 25px !important;
-    }
-  
-    main .main-wrap .main-profile {
-      width: 250px !important;
-      height: 250px !important;
-    }
-  
-    main .main-info {
-  
-      font-size: 12px !important;
-    }
-  
-    main .main-wrap .main-info ul {
-      gap: 8px !important;
-    }
-  
-  
-    main .main-wrap .main-info ul li {
-      width: 80px !important;
-      height: 30px !important;
-    }
-  
-    main .main-wrap .main-info ul li a {
-      font-size: 12px !important;
-    }
-  
-    main .main-info-social-links {
-      gap: 5px !important;
-    }
-  
-    main .main-info-social-links li {
-      width: 30px !important;
-    }
-  
-    main .main-info-social-links li a img {
-      width: 12px !important;
-    }
-  
-  
-    /* Resume */
-  
-    .resume {
-      padding: 100px 60px !important;
-      text-align: center;
-    }
-  
-    .resume .container {
-      gap: 50px !important;
-    }
-  
-    .resume .container .resume-box {
-      flex-direction: column !important;
-      gap: 60px !important;
-    }
-  
-    .resume .resume-info-box .tenure-box {
-      align-self: normal !important;
-    }
-  
-  
-    .resume .container .resume-box .resume-info-box {
-      flex-direction: column !important;
-    }
-  
-    .resume .container .resume-info .resume-box {
-      flex-direction: column !important;
-    }
-  
-    .tl .content-heading {
-      flex-direction: column !important;
-    }
-  
-    .tl .tl-tenure span {
-      margin-right: 0px !important;
-    }
-  
-    .other-skills .other-skills-wrap ul {
-      justify-content: center !important;
-    }
-  
-    /* Projects */
-  
-    .projects {
-      padding: 100px 60px !important;
-    }
-  
-    .projects .container {
-      gap: 50px !important;
-    }
-  
-    .projects .projects-box {
-      flex-direction: column !important;
-    }
-  
-  
-    /* contact */
-  
-    .contact {
-      padding: 100px 60px !important;
-    }
-  
-    .contact .contact-box {
-      flex-direction: column;
-    }
-  
-    .contact .contact-box .contact-info {
-      align-self: center !important;
-      text-align: center;
-    }
-  
-  
-    /* Footer */
-  
-    .footer-container {
-      padding: 30px 50px !important;
-    }
-  
-    footer h1 {
-      font-size: 12px !important;
-    }
-  
-    footer span {
-      font-size: 10px !important;
-    }
-  
-  }
-  
-  
-  @media screen and (max-width: 850px) {
-  
-    header nav {
-      justify-content: space-between;
-      gap: 12px;
-    }
-  
-  
-    main .container {
-      flex-direction: column;
-    }
-  
-    main .main-wrap {
-      gap: 25px !important;
-    }
-  
-    main .main-wrap .main-profile {
-      width: 200px !important;
-      height: 200px !important;
-    }
-  
-    main .main-info {
-  
-      font-size: 10px;
-      max-width: 300px !important;
-    }
-  
-  
-    main .main-info-social-links {
-      gap: 2px !important;
-      padding: 5px 0px !important;
-    }
-  
-    main .main-info-social-links li {
-      width: 30px !important;
-    }
-  
-    main .main-info-social-links li a img {
-      width: 10px !important;
-    }
-  
-  
-    /* Resume */
-  
-    .resume .resume-info-box .content-box {
-      width: 100% !important;
-    }
-  
-    #Skills-experties .resume-info-box-container {
-      width: 100% !important;
-  
-    }
-  
-    /* Resume wrap*/
-  
-  
-    /* Project */
-  
-    .projects .container {
-      gap: 50px !important;
-    }
-  
-    .project-img-box img {
-      width: 100% !important;
-    }
-  
-    /* Project wrap */
-  
-  
-    /* Contact */
-  
-    .email-subject {
-      flex-direction: column !important;
-    }
-  
-    .first-last-name {
-      flex-direction: column !important;
-  
-    }
-  
-    .message-submit .message {
-      margin: 0px !important;
-    }
-  
-    .message-submit {
-      align-items: normal !important;
-      flex-direction: column;
-    }
-  
-    .message-submit textarea {
-      width: 100% !important;
-    }
-  
-    .submit {
-      align-self: normal !important;
-    }
-  
-    .submit button {
-      width: 100% !important;
-      height: 50px !important;
-  
-    }
-  
-    /* Contact Wrap */
-  
-  
-    /* footer */
-  
-    footer {
-      font-family: "Poppins", sans-serif;
-      color: #eea302;
-    }
-  
-    .footer-container {
-      padding: 60px;
-    }
-  
-    .footer-links {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    footer h1 {
-      font-size: 17px;
-    }
-  
-    footer span {
-      font-family: "Roboto Mono", monospace;
-      color: #fff;
-      font-size: 13px;
-    }
-  
-    /* phone */
-  
-    .footer-links .phone {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    .footer-links .email {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    /* follow me */
-  
-    .footer-links .follow-me {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-  
-    footer a {
-      text-decoration: none;
-      color: #fff;
-    }
-  
-    .footer-links .follow-me img {
-      width: 18px;
-      height: 18px;
-      cursor: pointer;
-      background-color: #fff;
-      padding: 2px;
-    }
-  
-    /* copyrights */
-  
-    .footer-links .copy-right {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-  
-    }
-  
-  }
-  
-  @media screen and (max-width: 650px) {
-    header nav {
-      justify-content: space-between;
-      gap: 12px;
-    }
-  
-  
-    main .container {
-      flex-direction: column;
-    }
-  
-    main .main-wrap {
-      gap: 25px !important;
-    }
-  
-    main .main-wrap .main-profile {
-      width: 150px !important;
-      height: 150px !important;
-    }
-  
-    main .main-info {
-  
-      font-size: 8px;
-      max-width: 300px !important;
-    }
-  
-    main .main-info h1 {
-      font-size: 20px !important;
-    }
-  
-    main .main-info h2 {
-      font-size: 15px !important;
-    }
-  
-    main .main-info p {
-      font-size: 9px !important;
-    }
-  
-    main .main-info-social-links li {
-      width: 30px !important;
-    }
-  
-    main .main-info-social-links li a img {
-      width: 10px !important;
-    }
-  
-    .resume .resume-info-box .content-box {
-      width: 100% !important;
-    }
-  
-    #Skills-experties .resume-info-box-container {
-      width: 100% !important;
-  
-    }
-  
-    /* Resume wrap*/
-  
-  
-    /* Project */
-  
-    .projects .container {
-      gap: 50px !important;
-    }
-  
-    .project-img-box img {
-      width: 100% !important;
-    }
-  
-    /* Project wrap */
-  
-  
-    /* Contact */
-  
-    .email-subject {
-      flex-direction: column !important;
-    }
-  
-    .first-last-name {
-      flex-direction: column !important;
-  
-    }
-  
-    .message-submit .message {
-      margin: 0px !important;
-    }
-  
-    .message-submit {
-      align-items: normal !important;
-      flex-direction: column;
-    }
-  
-    .message-submit textarea {
-      width: 100% !important;
-    }
-  
-    .submit {
-      align-self: normal !important;
-    }
-  
-    .submit button {
-      width: 100% !important;
-      height: 50px !important;
-  
-    }
-  
-    /* Contact Wrap */
-  
-  
-    /* footer */
-  
-    footer {
-      font-family: "Poppins", sans-serif;
-      color: #eea302;
-    }
-  
-    .footer-container {
-      padding: 60px;
-    }
-  
-    .footer-links {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    footer h1 {
-      font-size: 17px;
-    }
-  
-    footer span {
-      font-family: "Roboto Mono", monospace;
-      color: #fff;
-      font-size: 13px;
-    }
-  
-    /* phone */
-  
-    .footer-links .phone {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    .footer-links .email {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    /* follow me */
-  
-    .footer-links .follow-me {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-  
-    footer a {
-      text-decoration: none;
-      color: #fff;
-    }
-  
-    .footer-links .follow-me img {
-      width: 18px;
-      height: 18px;
-      cursor: pointer;
-      background-color: #fff;
-      padding: 2px;
-    }
-  
-    /* copyrights */
-  
-    .footer-links .copy-right {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-  
-    }
-  
-  
-  }
-  
-  @media screen and (max-width: 590px) {
-  
-    header nav {
-      justify-content: space-between;
-      gap: 12px;
-    }
-  
-  
-    main .container {
-      flex-direction: column;
-    }
-  
-    main .main-wrap {
-      gap: 50px !important;
-      flex-direction: column !important;
-      padding-top: 40px !important;
-      padding-bottom: 40px !important;
-    }
-  
-    main .main-wrap .main-profile {
-      width: 150px !important;
-      height: 150px !important;
-    }
-  
-    main .main-info {
-      font-size: 8px;
-      justify-content: center !important;
-      align-items: center !important;
-      max-width: 300px !important;
-      text-align: center !important;
-    }
-  
-    main .main-info .main-heading {
-  
-      justify-content: center !important;
-      align-items: center !important;
-    }
-  
-    main .main-info h1 {
-      font-size: 20px !important;
-    }
-  
-    main .main-info h2 {
-      font-size: 15px !important;
-    }
-  
-    main .main-info p {
-      font-size: 9px !important;
-    }
-  
-    main .main-info-social-links li {
-      width: 30px !important;
-    }
-  
-    main .main-info-social-links li a img {
-      width: 10px !important;
-    }
-  
-  
 
-    /* Resume */
-  
-    .resume .resume-info-box .content-box {
-      width: 100% !important;
-    }
-  
-    #Skills-experties .resume-info-box-container {
-      width: 100% !important;
-  
-    }
-  
-    /* Resume wrap*/
-  
-  
-    /* Project */
-  
-    .projects .container {
-      gap: 50px !important;
-    }
-  
-    .project-img-box img {
-      width: 100% !important;
-    }
-  
-    /* Project wrap */
-  
-  
-    /* Contact */
-  
-    .email-subject {
-      flex-direction: column !important;
-    }
-  
-    .first-last-name {
-      flex-direction: column !important;
-  
-    }
-  
-    .message-submit .message {
-      margin: 0px !important;
-    }
-  
-    .message-submit {
-      align-items: normal !important;
-      flex-direction: column;
-    }
-  
-    .message-submit textarea {
-      width: 100% !important;
-    }
-  
-    .submit {
-      align-self: normal !important;
-    }
-  
-    .submit button {
-      width: 100% !important;
-      height: 50px !important;
-  
-    }
-  
-    /* Contact Wrap */
-  
+  .projects .projects-box {
+
+    flex-direction: column !important;
+  }
+
+  .projects .container {
+    gap: 50px !important;
+  }
+
+  /* contact */
+  .contact .contact-box {
+    gap: 50px !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+
+  /* home */
+
+  header nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+    font-family: "Major Mono Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px !important;
+  }
+
+  .right ul li a {
+    position: relative;
+    font-size: 10px !important;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: #fff;
+    transition: all 0.2s;
+    font-family: "Poppins", sans-serif;
+  }
+
+  main .container {
+    flex-direction: column;
+  }
+
+  main .main-wrap {
+    gap: 25px !important;
+  }
+
+  main .main-wrap .main-profile {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  main .main-info {
+
+    font-size: 12px !important;
+  }
+
+  main .main-wrap .main-info ul {
+    gap: 8px !important;
+  }
+
+  main .main-wrap .main-info ul li a {
+    font-size: 12px !important;
+  }
+
+  main .main-info-social-links {
+    gap: 5px !important;
+  }
+
+  main .main-info-social-links li {
+    width: 30px !important;
+  }
+
+  main .main-info-social-links li a img {
+    width: 12px !important;
+  }
+
+
+  /* Resume */
+
+  .resume {
+    padding: 100px 60px !important;
+    text-align: center;
+  }
+
+  .resume .container {
+    gap: 50px !important;
+  }
+
+  .resume .container .resume-box {
+    flex-direction: column !important;
+    gap: 60px !important;
+  }
+
+  .resume .resume-info-box .tenure-box {
+    align-self: normal !important;
+  }
+
+
+  .resume .container .resume-box .resume-info-box {
+    flex-direction: column !important;
+  }
+
+  .resume .container .resume-info .resume-box {
+    flex-direction: column !important;
+  }
+
+  .tl .content-heading {
+    flex-direction: column !important;
+  }
+
+  .tl .tl-tenure span {
+    margin-right: 0px !important;
+  }
+
+  .other-skills .other-skills-wrap ul {
+    justify-content: center !important;
+  }
+
+  /* Projects */
+
+  .projects {
+    padding: 100px 60px !important;
+  }
+
+  .projects .container {
+    gap: 50px !important;
+  }
+
+  .projects .projects-box {
+    flex-direction: column !important;
+  }
+
+
+  /* contact */
+
+  .contact {
+    padding: 100px 60px !important;
+  }
+
+  .contact .contact-box {
+    flex-direction: column;
+  }
+
+  .contact .contact-box .contact-info {
+    align-self: center !important;
+    text-align: center;
+  }
+
+
+  .contact-heading {
+    align-items: center !important;
+  }
+
+  /* Footer */
+
+  .footer-container {
+    padding: 30px 50px !important;
+  }
+
+  footer h1 {
+    font-size: 12px !important;
+  }
+
+  footer span {
+    font-size: 10px !important;
+  }
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+  header nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+
+  main .container {
+    flex-direction: column;
+  }
+
+  main .main-wrap {
+    gap: 25px !important;
+  }
+
+  main .main-wrap .main-profile {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  main .main-info {
+
+    font-size: 10px;
+    max-width: 300px !important;
+  }
+
+
+  main .main-info-social-links {
+    gap: 2px !important;
+    padding: 5px 0px !important;
+  }
+
+  main .main-info-social-links li {
+    width: 30px !important;
+  }
+
+  main .main-info-social-links li a img {
+    width: 10px !important;
+  }
+
+
+  /* Resume */
+
+  .resume .resume-info-box .content-box {
+    width: 100% !important;
+  }
+
+  #Skills-experties .resume-info-box-container {
+    width: 100% !important;
+
+  }
+
+  /* Resume wrap*/
+
+
+  /* Project */
+
+  .projects .container {
+    gap: 50px !important;
+  }
+
+  .project-img-box img {
+    width: 100% !important;
+  }
+
+  /* Project wrap */
+
+  /* footer */
+
+  footer {
+    font-family: "Poppins", sans-serif;
+    color: #eea302;
+  }
+
+  .footer-container {
+    padding: 60px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer h1 {
+    font-size: 17px;
+  }
+
+  footer span {
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  /* phone */
+
+  .footer-links .phone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .footer-links .email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  /* follow me */
+
+  .footer-links .follow-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-links .follow-me img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px;
+  }
+
+  /* copyrights */
+
+  .footer-links .copy-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+  header nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+
+  main .container {
+    flex-direction: column;
+  }
+
+  main .main-wrap {
+    gap: 25px !important;
+  }
+
+  main .main-wrap .main-profile {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  main .main-info {
+
+    font-size: 8px;
+    max-width: 300px !important;
+  }
+
+  main .main-info h1 {
+    font-size: 20px !important;
+  }
+
+  main .main-info h2 {
+    font-size: 15px !important;
+  }
+
+  main .main-info p {
+    font-size: 9px !important;
+  }
+
+  main .main-info-social-links li {
+    width: 30px !important;
+  }
+
+  main .main-info-social-links li a img {
+    width: 10px !important;
+  }
+
+  .resume .resume-info-box .content-box {
+    width: 100% !important;
+  }
+
+  #Skills-experties .resume-info-box-container {
+    width: 100% !important;
+
+  }
+
+  /* Resume wrap*/
+
+
+  /* Project */
+
+  .projects .container {
+    gap: 50px !important;
+  }
+
+  .project-img-box img {
+    width: 100% !important;
+  }
+
+  /* Project wrap */
+
+  /* footer */
+
+  footer {
+    font-family: "Poppins", sans-serif;
+    color: #eea302;
+  }
+
+  .footer-container {
+    padding: 60px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer h1 {
+    font-size: 17px;
+  }
+
+  footer span {
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  /* phone */
+
+  .footer-links .phone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .footer-links .email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  /* follow me */
+
+  .footer-links .follow-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-links .follow-me img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px;
+  }
+
+  /* copyrights */
+
+  .footer-links .copy-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+
+}
+
+@media screen and (max-width: 590px) {
+
+  header nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+
+  main .container {
+    flex-direction: column;
+  }
+
+  main .main-wrap {
+    gap: 50px !important;
+    flex-direction: column !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  main .main-wrap .main-profile {
+    width: 150px !important;
+    height: 150px !important;
+  }
+
+  main .main-info {
+    font-size: 8px;
+    justify-content: center !important;
+    align-items: center !important;
+    max-width: 300px !important;
+    text-align: center !important;
+  }
+
+  main .main-info .main-heading {
+
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  main .main-info h1 {
+    font-size: 20px !important;
+  }
+
+  main .main-info h2 {
+    font-size: 15px !important;
+  }
+
+  main .main-info p {
+    font-size: 9px !important;
+  }
+
+  main .main-info-social-links {
+    display: none !important;
+  }
+
+
+
+  main .main-info ul li {
+    width: 80px !important;
+    height: 30px !important;
+  }
+
+  main .main-info .main-info-social-links-2 {
+    display: flex !important;
+  }
+
+
+  main .main-info-social-links-2 li {
+    height: 10px !important;
+  }
+
+  /* Resume */
+
+  .resume .resume-info-box .content-box {
+    width: 100% !important;
+  }
+
+  #Skills-experties .resume-info-box-container {
+    width: 100% !important;
+
+  }
+
+  /* Resume wrap*/
+
+
+  /* Project */
+
+  .projects .container {
+    gap: 50px !important;
+  }
+
+  .project-img-box img {
+    width: 100% !important;
+  }
+
+  /* Project wrap */
+
+  /* footer */
+
+  footer {
+    font-family: "Poppins", sans-serif;
+    color: #eea302;
+  }
+
+  .footer-container {
+    padding: 60px;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer h1 {
+    font-size: 10px !important;
+  }
+
+  footer span {
+    font-family: "Roboto Mono", monospace;
+    color: #fff;
+    font-size: 8px !important;
+  }
+
+  /* phone */
+
+  .footer-links .phone {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .footer-links .email {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  /* follow me */
+
+  .footer-links .follow-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .footer-links .follow-me img {
+    width: 13px !important;
+    height: 13px !important;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 2px;
+  }
+
+  /* copyrights */
+
+  .footer-links .copy-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+  header nav {
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+
+  main .container {
+    flex-direction: column;
+  }
+
+  main .main-wrap {
+    gap: 50px !important;
+    flex-direction: column !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  main .main-info-social-links li {
+    display: none !important;
+  }
+
+  /* Hamburger Menu */
+
+  .right .hamburger {
+    display: flex;
+    z-index: 4000;
+    position: relative;
+  }
+
+
+  .right ul {
+    display: none;
+  }
+
+  .right ul.ham-menu {
+    background-color: #0C2340;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+
+  .right ul li a {
+    font-size: 25px;
+  }
+
+  /* Hamburger Menu wrap
   
     /* footer */
-  
-    footer {
-      font-family: "Poppins", sans-serif;
-      color: #eea302;
-    }
-  
-    .footer-container {
-      padding: 60px;
-    }
-  
-    .footer-links {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    footer h1 {
-      font-size: 10px !important;
-    }
-  
-    footer span {
-      font-family: "Roboto Mono", monospace;
-      color: #fff;
-      font-size: 8px !important;
-    }
-  
-    /* phone */
-  
-    .footer-links .phone {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    .footer-links .email {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-    /* follow me */
-  
-    .footer-links .follow-me {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      gap: 7px;
-    }
-  
-  
-    footer a {
-      text-decoration: none;
-      color: #fff;
-    }
-  
-    .footer-links .follow-me img {
-      width: 13px !important;
-      height: 13px !important;
-      cursor: pointer;
-      background-color: #fff;
-      padding: 2px;
-    }
-  
-    /* copyrights */
-  
-    .footer-links .copy-right {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-  
-    }
-  
-  
+
+  .footer-links {
+    text-align: center;
+    justify-content: center !important;
   }
-  
-  @media screen and (max-width: 500px) {
-  
-    header nav {
-      justify-content: space-between;
-      gap: 12px;
-    }
-  
-  
-    main .container {
-      flex-direction: column;
-    }
-  
-    main .main-wrap {
-      gap: 50px !important;
-      flex-direction: column !important;
-      padding-top: 40px !important;
-      padding-bottom: 40px !important;
-      padding-left: 40px !important;
-      padding-right: 40px !important;
-    }
-  
-    main .main-info-social-links li {
-      display: none !important;
-    }
-  
-    /* Hamburger Menu */
-  
-    .right .hamburger {
-      display: flex;
-      z-index: 4000;
-      position: relative;
-    }
-  
-  
-    .right ul {
-      display: none;
-    }
-  
-    .right ul.ham-menu {
-      background-color: #0C2340;
-      width: 100vw;
-      height: 100vh;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 2000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 80px;
-    }
-  
-  
-    .right ul li a {
-      font-size: 25px;
-    }
-  
-    /* Hamburger Menu wrap
-  
-    /* footer */
-  
-    .footer-links {
-      text-align: center;
-      justify-content: center !important;
-    }
-  
-    /* phone */
-  
-    .footer-links .phone {
-      display: none !important;
-    }
-  
-    .footer-links .email {
-      display: none !important;
-    }
-  
-    /* follow me */
-  
-    .footer-links .follow-me {
-      display: none !important;
-    }
-  
+
+  /* phone */
+
+  .footer-links .phone {
+    display: none !important;
   }
+
+  .footer-links .email {
+    display: none !important;
+  }
+
+  /* follow me */
+
+  .footer-links .follow-me {
+    display: none !important;
+  }
+
+}

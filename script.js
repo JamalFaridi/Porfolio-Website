@@ -16,8 +16,7 @@ ScrollReveal({
     delay: 10
 });
 
-ScrollReveal().reveal('.project-info', { origin: "left" });
-ScrollReveal().reveal('.project-img-box', { origin: "right" });
+ScrollReveal().reveal('.projects-box', { origin: "left" });
 
 
 ScrollReveal({
