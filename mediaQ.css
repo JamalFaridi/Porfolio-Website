@@ -574,6 +574,10 @@
     font-size: 15px !important;
   }
 
+  .projects .project-info .project-heading span {
+    font-size: 9px !important;
+  }
+
   .projects .project-info .project-paragraph p {
 
     font-size: 7px !important;
