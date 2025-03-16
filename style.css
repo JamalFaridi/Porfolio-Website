@@ -706,7 +706,7 @@ main .main-info .main-info-social-links-2 li:hover a img {
 }
 
 /* projects */
-
+/* 
 .projects {
   padding: 120px 150px;
   font-family: "Alegreya", serif;
@@ -723,11 +723,11 @@ main .main-info .main-info-social-links-2 li:hover a img {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  gap: 150px;
+  /* flex-direction: column;
+  flex-wrap: wrap; 
+  gap: 50px;
 
-}
+} 
 
 .projects>h1 {
   width: max-content;
@@ -780,7 +780,7 @@ main .main-info .main-info-social-links-2 li:hover a img {
   gap: 5px;
 }
 
-/* Project Paragraph */
+/* Project Paragraph 
 
 .project-info .project-paragraph p {
   font-family: "Roboto Mono", monospace;
@@ -804,6 +804,7 @@ main .main-info .main-info-social-links-2 li:hover a img {
   transition: .2s all;
 }
 
+*/
 
 
 

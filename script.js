@@ -16,15 +16,15 @@ ScrollReveal({
     delay: 10
 });
 
-ScrollReveal().reveal('.projects-box', { origin: "left" });
+// ScrollReveal().reveal('.projects-box', { origin: "left" });
 
 
-ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 10
-});
+// ScrollReveal({
+//     reset: true,
+//     distance: '40px',
+//     duration: 500,
+//     delay: 10
+// });
 
 ScrollReveal().reveal('.resume-info', { origin: "left" });
 ScrollReveal().reveal('.tenure-box', { origin: "right" });
