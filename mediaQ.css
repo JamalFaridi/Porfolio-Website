@@ -32,7 +32,7 @@
 
   .left a {
     text-decoration: none;
-    color: #fff;
+    color: var(--primary-color);
     transition: color 0.2s;
     font-family: "Major Mono Display", serif;
     font-weight: 400;
@@ -40,16 +40,6 @@
     font-size: 15px !important;
   }
 
-  .right ul li a {
-    position: relative;
-    font-size: 10px !important;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 5px 12px;
-    color: #fff;
-    transition: all 0.2s;
-    font-family: "Poppins", sans-serif;
-  }
 
   main .container {
     flex-direction: column;
@@ -90,32 +80,32 @@
   }
 
 
-  /* Resume */
+  /* about */
 
-  .resume {
+  .about {
     padding: 100px 60px !important;
     text-align: center;
   }
 
-  .resume .container {
+  .about .container {
     gap: 50px !important;
   }
 
-  .resume .container .resume-box {
+  .about .container .about-box {
     flex-direction: column !important;
     gap: 60px !important;
   }
 
-  .resume .resume-info-box .tenure-box {
+  .about .about-info-box .tenure-box {
     align-self: normal !important;
   }
 
 
-  .resume .container .resume-box .resume-info-box {
+  .about .container .about-box .about-info-box {
     flex-direction: column !important;
   }
 
-  .resume .container .resume-info .resume-box {
+  .about .container .about-info .about-box {
     flex-direction: column !important;
   }
 
@@ -190,6 +180,17 @@
     gap: 12px;
   }
 
+  .middle ul {
+    gap: 5px !important;
+  }
+
+  .middle ul li a {
+    font-size: 17px !important;
+  }
+
+  .right #hamBurger-menu a {
+    font-size: 15px !important;
+  }
 
   main .container {
     flex-direction: column;
@@ -225,18 +226,18 @@
   }
 
 
-  /* Resume */
+  /* about */
 
-  .resume .resume-info-box .content-box {
+  .about .about-info-box .content-box {
     width: 100% !important;
   }
 
-  #Skills-experties .resume-info-box-container {
+  #Skills-experties .about-info-box-container {
     width: 100% !important;
 
   }
 
-  /* Resume wrap*/
+  /* about wrap*/
 
 
   /* Project */
@@ -255,7 +256,7 @@
 
   footer {
     font-family: "Poppins", sans-serif;
-    color: #eea302;
+    color: var(--text-color);
   }
 
   .footer-container {
@@ -274,7 +275,7 @@
 
   footer span {
     font-family: "Roboto Mono", monospace;
-    color: #fff;
+    color: var(--text-color);
     font-size: 13px;
   }
 
@@ -306,14 +307,14 @@
 
   footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
   }
 
   .footer-links .follow-me img {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 2px;
   }
 
@@ -332,6 +333,18 @@
   header nav {
     justify-content: space-between;
     gap: 12px;
+  }
+
+  .middle ul {
+    gap: 2px !important;
+  }
+
+  .middle ul li a {
+    font-size: 14px !important;
+  }
+
+  .right #hamBurger-menu a {
+    font-size: 12px !important;
   }
 
 
@@ -374,16 +387,16 @@
     width: 10px !important;
   }
 
-  .resume .resume-info-box .content-box {
+  .about .about-info-box .content-box {
     width: 100% !important;
   }
 
-  #Skills-experties .resume-info-box-container {
+  #Skills-experties .about-info-box-container {
     width: 100% !important;
 
   }
 
-  /* Resume wrap*/
+  /* about wrap*/
 
 
   /* Project */
@@ -402,7 +415,7 @@
 
   footer {
     font-family: "Poppins", sans-serif;
-    color: #eea302;
+    color: var(--text-color);
   }
 
   .footer-container {
@@ -421,7 +434,7 @@
 
   footer span {
     font-family: "Roboto Mono", monospace;
-    color: #fff;
+    color: var(--text-color );
     font-size: 13px;
   }
 
@@ -453,14 +466,14 @@
 
   footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
   }
 
   .footer-links .follow-me img {
     width: 18px;
     height: 18px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 2px;
   }
 
@@ -546,18 +559,18 @@
     height: 10px !important;
   }
 
-  /* Resume */
+  /* about */
 
-  .resume .resume-info-box .content-box {
+  .about .about-info-box .content-box {
     width: 100% !important;
   }
 
-  #Skills-experties .resume-info-box-container {
+  #Skills-experties .about-info-box-container {
     width: 100% !important;
 
   }
 
-  /* Resume wrap*/
+  /* about wrap*/
 
 
   /* Project */
@@ -597,7 +610,7 @@
 
   footer {
     font-family: "Poppins", sans-serif;
-    color: #eea302;
+    color: var(--text-color);
   }
 
   .footer-container {
@@ -616,7 +629,7 @@
 
   footer span {
     font-family: "Roboto Mono", monospace;
-    color: #fff;
+    color: var(--text-color) !important;
     font-size: 8px !important;
   }
 
@@ -648,14 +661,14 @@
 
   footer a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
   }
 
   .footer-links .follow-me img {
     width: 13px !important;
     height: 13px !important;
     cursor: pointer;
-    background-color: #fff;
+    background-color: var(--primary-color);
     padding: 2px;
   }
 
@@ -709,8 +722,27 @@
     display: none;
   }
 
+  .middle ul {
+    display: none;
+  }
+
+  .right ul li a {
+    background-color: transparent !important;
+    color: var(--text-color);
+  }
+
+  .right ul li:nth-child(5) a {
+    background-color: var(--text-color) !important;
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+
   .right ul.ham-menu {
-    background-color: #0C2340;
+    background-color: var(--link-background-color);
     width: 100vw;
     height: 100vh;
     position: fixed;
