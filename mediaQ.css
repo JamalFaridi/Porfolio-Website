@@ -1,5 +1,8 @@
 @media screen and (max-width: 1178px) {
 
+  .main-wrap{
+    gap: 0px !important;
+  }
   /* project */
   /* .projects {
     text-align: center;
@@ -50,7 +53,7 @@
   }
 
   main .main-wrap .main-profile {
-    width: 250px !important;
+    width: 300px !important;
     height: 250px !important;
   }
 
@@ -197,11 +200,11 @@
   }
 
   main .main-wrap {
-    gap: 25px !important;
+    gap: 0px !important;
   }
 
   main .main-wrap .main-profile {
-    width: 200px !important;
+    width: 250px !important;
     height: 200px !important;
   }
 
@@ -502,7 +505,7 @@
   }
 
   main .main-wrap {
-    gap: 50px !important;
+    gap: 0px !important;
     flex-direction: column !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;
@@ -697,7 +700,7 @@
   }
 
   main .main-wrap {
-    gap: 50px !important;
+    gap: 0px !important;
     flex-direction: column !important;
     padding-top: 40px !important;
     padding-bottom: 40px !important;

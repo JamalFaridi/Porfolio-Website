@@ -208,14 +208,15 @@ main .main-wrap .main-profile {
   justify-content: center;
   background: var(--primary-color);
   border-radius: 50%;
-  width: 350px;
+  width: 450px;
   height: 350px;
   overflow: hidden;
+  position: relative;
 }
 
 main .main-wrap .main-profile img {
+  object-fit: contain;
   width: 100%;
-  margin-top: 50px;
   cursor: pointer;
 }
 
