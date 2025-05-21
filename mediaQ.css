@@ -738,7 +738,7 @@
     background-color: var(--text-color) !important;
     padding: 12px 20px;
     border-radius: 10px;
-    color: var(--text-color);
+    color: var(--primary-color);
     text-decoration: none;
     font-weight: bold;
   }
