@@ -1,8 +1,8 @@
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 10
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 10
 });
 
 ScrollReveal().reveal('.main-profile', { origin: "top" });
@@ -10,10 +10,10 @@ ScrollReveal().reveal('.main-info', { origin: "bottom" });
 
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 10
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 10
 });
 
 // ScrollReveal().reveal('.projects-box', { origin: "left" });
@@ -30,28 +30,28 @@ ScrollReveal().reveal('.resume-info', { origin: "left" });
 ScrollReveal().reveal('.tenure-box', { origin: "right" });
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 100
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 100
 });
 
 ScrollReveal().reveal('.content-box', { origin: "right" });
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 10
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 10
 });
 
 ScrollReveal().reveal('.other-skills', { origin: "right" });
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 100
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 100
 });
 
 
@@ -60,19 +60,19 @@ ScrollReveal({
 ScrollReveal().reveal(".contact-box", { origin: "left" });
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 100
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 100
 });
 
 ScrollReveal().reveal(".contact-form-box", { origin: "right" });
 
 ScrollReveal({
-    reset: true,
-    distance: '40px',
-    duration: 500,
-    delay: 10
+  reset: true,
+  distance: '40px',
+  duration: 500,
+  delay: 10
 });
 
 
@@ -105,20 +105,20 @@ let gototop = document.getElementsByTagName("footer")[0].lastElementChild
 
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 100) {
-        gototop.classList.add("active")
-    }
-    else {
-        gototop.classList.remove("active")
-    }
+  if (window.scrollY > 100) {
+    gototop.classList.add("active")
+  }
+  else {
+    gototop.classList.remove("active")
+  }
 })
 
 gototop.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // This will animate the scroll
-    });
-    console.log("Clicked")
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // This will animate the scroll
+  });
+  console.log("Clicked")
 })
 
 
@@ -196,10 +196,10 @@ if (!hamMenu || !hamb) {
 } else {
   // Menu items configuration (aligned with HTML)
   const menuItems = [
-      { text: 'Services', href: 'services.html' },
-      { text: 'Work', href: 'work.html' },
-      { text: 'About', href: 'about.html' },
-      { text: 'Home', href: 'index.html' }
+    { text: 'Services', href: 'services.html' },
+    { text: 'Work', href: 'work.html' },
+    { text: 'About', href: 'about.html' },
+    { text: 'Home', href: 'index.html' }
   ];
 
   // Function to create a single menu item
